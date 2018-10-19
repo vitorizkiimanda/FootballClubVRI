@@ -61,29 +61,4 @@ class MainActivity : AppCompatActivity() {
         image.recycle()
     }
 
-//    class MainActivityUI : AnkoComponent<MainActivity> {
-//        override fun createView(ui: AnkoContext<MainActivity>) = with(ui) {
-//            linearLayout {
-//                orientation = LinearLayout.HORIZONTAL
-//                padding = dip(16)
-//
-//                imageView(R.drawable.img_barca) {
-//                    id = Ids.image
-//                }.lparams(width = dip(50), height = dip(50))
-//
-//                textView {
-//                    id = Ids.name
-//                    text = "Barcelona FC"
-//                }.lparams(width = wrapContent, height = wrapContent) {
-//                    margin = dip(10)
-//                }
-//            }
-//        }
-//
-//    }
-//
-//    private object Ids {
-//        val image = 1
-//        val name = 2
-//    }
 }
